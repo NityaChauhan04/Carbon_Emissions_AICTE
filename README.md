@@ -20,3 +20,45 @@ The project focuses on predicting carbon emissions. It involves cleaning and tra
    - Replaced blank strings (`''`) and `'..'` with `np.nan`.
    ```python
    data_clean.iloc[:, 2:] = data_clean.iloc[:, 2:].replace({'': np.nan, '..': np.nan})
+
+3. **Suppressing Future Warnings:**
+   - Used the `warnings` library to hide non-critical future warnings for cleaner output:
+     ```python
+     import warnings
+     warnings.filterwarnings("ignore", category=FutureWarning)
+     ```
+
+---
+
+## 📅 Week 2: Data Exploration
+
+### ✅ Objectives:
+- Understand the structure and patterns in the dataset
+- Rename features for easier interpretation
+- Perform summary statistics and multicollinearity checks
+
+### ✅ Tasks Completed:
+1. **Loaded Cleaned Data:**
+   - Used `data_cleaned.csv` for analysis.
+
+2. **Global Overview:**
+   - Displayed shape, data types, first few rows, and statistical summaries:
+     ```python
+     data.shape
+     data.dtypes
+     data.head()
+     data.describe().T
+     ```
+3. **Basic Visualizations:**
+   - Created plots using `matplotlib` and `seaborn` for better understanding of variable distributions and relationships.
+
+---
+
+## 🛠 Technologies Used:
+- Python 
+- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Statsmodels
+
+---
