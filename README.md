@@ -6,7 +6,7 @@ The project focuses on predicting carbon emissions. It involves cleaning and tra
 ---
 #### 🔗 Model Download: https://drive.google.com/file/d/1R08mOGPySz174lsbmb5J5W52HTeegP_L/view?usp=drive_link
 ## 📅 Week 1: Data Preprocessing
-
+---
 ### ✅ Objectives:
 - Load the raw dataset (`climate_change.xls`)
 - Clean missing and inconsistent data
@@ -75,6 +75,7 @@ The project focuses on predicting carbon emissions. It involves cleaning and tra
 ``` pyhton 
 forecasting_co2_emission.pkl
 ```
+---
 ## 🚀 Streamlit App
 An interactive Streamlit web app was created to allow users to visualize and forecast CO₂ per capita emissions for countries like:
 
@@ -93,7 +94,7 @@ An interactive Streamlit web app was created to allow users to visualize and for
 ``` pyhton 
 streamlit run app.py
 ```
-
+---
 ## 🛠 Technologies Used:
 - Python 
 - Jupyter Notebook
