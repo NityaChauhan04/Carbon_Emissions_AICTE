@@ -76,25 +76,6 @@ The project focuses on predicting carbon emissions. It involves cleaning and tra
 forecasting_co2_emission.pkl
 ```
 ---
-## 🚀 Streamlit App
-An interactive Streamlit web app was created to allow users to visualize and forecast CO₂ per capita emissions for countries like:
-
-- 🇮🇳 India
-- 🇺🇸 USA
-- 🇷🇺 Russia
-- 🇵🇰 Pakistan
-- 🇳🇿 New Zealand
-
-#### 💻 Features:
-- Country dropdown selector
-- Forecasted emissions plotted with seaborn
-- Tabular display of last 5-year predictions
-- Clean and responsive UI using Streamlit
-#### ▶️ To Run:
-``` pyhton 
-streamlit run app.py
-```
----
 ## 🛠 Technologies Used:
 - Python 
 - Jupyter Notebook
